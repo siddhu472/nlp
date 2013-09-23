@@ -1,0 +1,9 @@
+The file contains CNF and provides several functions . 
+
+generate_tree : generates a sentence from the grammar 
+		but bracketed notaiton to indicate the rules 
+		used in its generation 
+
+Aim : ot implement function parse 
+
+
