@@ -2,11 +2,11 @@ import shutil
 import glob 
 import os 
 import sys 
-inputdir = "/home/sid/Desktop/git/nlp/Assignment4/spamham/easy_ham_2/" 
-outputdir = "/home/sid/Desktop/git/nlp/Assignment4/ham"
-testdir = "/home/sid/Desktop/git/nlp/Assignment4/testing"
+inputdir = "/home/sid/Desktop/git/nlp/Assignment4/reviews /txt_sentoken/pos_clean/" 
+outputdir = "/home/sid/Desktop/git/nlp/Assignment4/pos_clean_max"
+testdir = "/home/sid/Desktop/git/nlp/Assignment4/testing/pos_clean_max"
 inputdir = glob.glob(inputdir+"/*")
-totalcount = 1200 
+totalcount = 975
 count = 0 
 for file in inputdir : 
 	if count < totalcount : 
